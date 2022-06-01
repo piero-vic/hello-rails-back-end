@@ -8,6 +8,7 @@
 ## Built With
 
 - Ruby on Rails
+- [Front-End](https://github.com/piero-vic/hello-react-front-end)
 
 ## Getting Started
 
@@ -33,7 +34,7 @@ bundler install
 
 ### Usage
 
-Run the following commnads to setup the database
+Run the following commands to setup the database
 
 ```
 rails db:create
@@ -41,11 +42,13 @@ rails db:migrate
 rails db:seed
 ```
 
-Run the following command to start the server, then go to http://localhost:3000
+Run the following command to start the server, it's going to run on localhost:9000
 
 ```sh
 rails s
 ```
+
+Go to http://localhost:9000/v1/random to get a random greeting.
 
 ## Author
 
